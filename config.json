@@ -1,0 +1,13 @@
+{
+  "nick":"hotchbot",
+  "user":"hotchbot",
+  "pass":"",
+  "server": {
+    "host":"irc.freenode.net",
+    "port":6667
+  },
+  "channel":"#somewhere",
+  "admins":[
+    "hotchkiss"
+  ]
+}
