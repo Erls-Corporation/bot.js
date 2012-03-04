@@ -23,8 +23,8 @@ bot.on('privateMessage', function(message) {
   console.log('private message: ' + message);
 });
 
-bot.on('channelMessage', function(message) {
-  console.log('channel message: ' + message);
+bot.on('channelMessage', function(from, message) {
+  console.log('channel message > %s: %s', from, message);
 });
 
 /* EOF */
