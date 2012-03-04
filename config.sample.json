@@ -4,5 +4,6 @@
   "server"  : "irc.freenode.net",
   "channel" : "#hotchkiss",
   "admins"  : ["hotchkiss"],
-  "port"    : 6667
+  "port"    : 6667,
+  "defaultTopic" : "This is my default topic!"
 }
