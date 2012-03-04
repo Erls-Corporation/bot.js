@@ -8,8 +8,8 @@ bot.on('ready', function() {
   console.log('CONNECTED >'.green);  
 });
 
-bot.on('joined', function(channel) {
-  console.log('JOINED > '.green + channel);
+bot.on('joined', function(nick) {
+  console.log('JOINED > '.green + nick);
 });
 
 bot.on('privateMessage', function(from, message) {
