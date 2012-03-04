@@ -10,12 +10,12 @@ Example:
 var irc = require('../lib/irc');
 
 var bot = new irc.Client({
-  user     : 'hotch_bot',
-  nick     : 'hotch_bot',
-  server   : 'irc.freenode.net',
-  channels : ['#hotchkiss'],
-  admins   : ['hotchkiss'],
-  port     : 6667,
+  user    : 'hotch_bot',
+  nick    : 'hotch_bot',
+  server  : 'irc.freenode.net',
+  channel : '#hotchkiss',
+  admins  : ['hotchkiss'],
+  port    : 6667
 });
 
 bot.on('ready', function() {
@@ -26,8 +26,12 @@ bot.on('joined', function(channel) {
   console.log('joined ' + channel);
 });
 
-bot.on('message', function(message) {
-  console.log('received message: ' + message);
+bot.on('privateMessage', function(message) {
+  console.log('private message: ' + message);
+});
+
+bot.on('channelMessage', function(message) {
+  console.log('channel message: ' + message);
 });
 
 /* EOF */
