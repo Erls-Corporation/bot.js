@@ -1,8 +1,8 @@
 {
   "author": "Edward Hotchkiss <edwardhotchkiss@me.com>",
   "name": "bot-js",
-  "description": "Node.JS IRC Bot with 0 dependencies",
-  "version": "0.0.1-2",
+  "description": "Node.JS IRC Bot with 0 dependencies. Run your #channel like a Boss.",
+  "version": "0.0.1-4",
   "repository": {
     "url": ""
   },
