@@ -2,7 +2,24 @@
 bot.js
 ======
 
-Example:
+Configuration
+=============
+
+Either use a config object, or setup config.json:
+
+```json
+{
+  "user"    : "hotch_bot",
+  "nick"    : "hotch_bot",
+  "server"  : "irc.freenode.net",
+  "channel" : "#hotchkiss",
+  "admins"  : ["hotchkiss"],
+  "port"    : 6667
+}
+```
+
+Example
+=======
 
 ```javascript
 #!/usr/bin/env node
@@ -40,3 +57,4 @@ bot.on('command', function(command) {
 
 /* EOF */
 ```
+
