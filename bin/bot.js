@@ -2,14 +2,7 @@
 
 var irc = require('../lib/irc');
 
-var bot = new irc.Client({
-  user    : 'hotch_bot',
-  nick    : 'hotch_bot',
-  server  : 'irc.freenode.net',
-  channel : '#hotchkiss',
-  admins  : ['hotchkiss'],
-  port    : 6667
-});
+var bot = new irc.Client();
 
 bot.on('ready', function() {
   console.log('connected to irc...');  

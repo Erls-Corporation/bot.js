@@ -1,0 +1,8 @@
+{
+  "user"    : "hotch_bot",
+  "nick"    : "hotch_bot",
+  "server"  : "irc.freenode.net",
+  "channel" : "#hotchkiss",
+  "admins"  : ["hotchkiss"],
+  "port"    : 6667
+}
