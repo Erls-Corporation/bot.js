@@ -10,14 +10,12 @@ Example:
 var irc = require('../lib/irc');
 
 var bot = new irc.Client({
-  user    : 'hotch_bot',
-  nick    : 'hotch_bot',
-  channel : '#hotchkiss',
-  server  : 'irc.freenode.net',
-  port    : 6667,
-  admins  : [
-    'hotchkiss'
-  ]
+  user     : 'hotch_bot',
+  nick     : 'hotch_bot',
+  server   : 'irc.freenode.net',
+  channels : ['#hotchkiss'],
+  admins   : ['hotchkiss'],
+  port     : 6667,
 });
 
 bot.on('ready', function() {
