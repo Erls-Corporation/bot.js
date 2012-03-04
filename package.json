@@ -6,7 +6,7 @@
   "repository": {
     "url": ""
   },
-  "bin": { "bott" : "./bin/bot" },
+  "bin": { "botjs" : "./bin/bot" },
   "engines": {
     "node": ">= 0.6.11"
   },
