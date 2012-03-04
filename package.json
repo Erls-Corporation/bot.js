@@ -2,7 +2,7 @@
   "author": "Edward Hotchkiss <edwardhotchkiss@me.com>",
   "name": "bot-js",
   "description": "Node.JS IRC Bot with 0 dependencies",
-  "version": "0.0.1",
+  "version": "0.0.1-2",
   "repository": {
     "url": ""
   },
