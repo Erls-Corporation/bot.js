@@ -19,12 +19,12 @@ bot.on('joined', function(channel) {
   console.log('joined ' + channel);
 });
 
-bot.on('privateMessage', function(message) {
-  console.log('private message: ' + message);
+bot.on('privateMessage', function(from, message) {
+  console.log('PRIVATE message > %s: %s', from, message);
 });
 
 bot.on('channelMessage', function(from, message) {
-  console.log('channel message > %s: %s', from, message);
+  console.log('CHANNEL message > %s: %s', from, message);
 });
 
 /* EOF */
