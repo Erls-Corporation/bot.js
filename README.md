@@ -5,12 +5,11 @@ bot.js
 Example:
 
 ```javascript
-
 #!/usr/bin/env node
 
 var irc = require('../lib/irc');
 
-var bot = new irc.client({
+var bot = new irc.Client({
   user    : 'hotch_bot',
   nick    : 'hotch_bot',
   channel : '#hotchkiss',
@@ -21,16 +20,17 @@ var bot = new irc.client({
   ]
 });
 
-irc.on('ready', function() {
-  irc.log('connected to irc...');  
+bot.on('ready', function() {
+  console.log('connected to irc...');  
 });
 
-irc.on('joined', function(channel) {
-  irc.log('joined ' + channel);
+bot.on('joined', function(channel) {
+  console.log('joined ' + channel);
 });
 
-irc.on('message', function(message) {
-  irc.log('received message: ' + message);
+bot.on('message', function(message) {
+  console.log('received message: ' + message);
 });
 
+/* EOF */
 ```
