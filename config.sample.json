@@ -2,8 +2,10 @@
   "user"    : "hotch_bot",
   "nick"    : "hotch_bot",
   "server"  : "irc.freenode.net",
+  "port"    : 6667,
   "channel" : "#hotchkiss",
   "admins"  : ["hotchkiss"],
-  "port"    : 6667,
-  "defaultTopic" : "This is my default topic!"
+  "topic"   : "This is my default Topic!",
+  "opMe"    : false,
+  "logRaw"  : true
 }
