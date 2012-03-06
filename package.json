@@ -4,9 +4,8 @@
   "description": "Node.JS IRC Bot with 0 dependencies. Run your #channel like a Boss.",
   "version": "0.0.1",
   "repository": {
-    "url": ""
+    "url": "http://github.com/edwardhotchkiss/bot.js.git"
   },
-  "bin": { "botjs" : "./bin/bot" },
   "engines": {
     "node": ">= 0.6.X < 0.7.0"
   },
