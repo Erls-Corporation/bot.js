@@ -8,7 +8,7 @@
   },
   "bin": { "botjs" : "./bin/bot" },
   "engines": {
-    "node": ">= 0.6.12 < 0.7.0"
+    "node": ">= 0.6.X < 0.7.0"
   },
   "dependencies": {},
   "devDependencies": {}
