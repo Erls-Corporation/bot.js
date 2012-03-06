@@ -2,7 +2,7 @@
   "author": "Edward Hotchkiss <edwardhotchkiss@me.com>",
   "name": "bot-js",
   "description": "Node.JS IRC Bot with 0 dependencies. Run your #channel like a Boss.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "http://github.com/edwardhotchkiss/bot.js.git"
   },
